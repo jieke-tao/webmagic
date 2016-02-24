@@ -54,6 +54,8 @@ public class Site {
     private ProxyPool httpProxyPool;
 
     private boolean useGzip = true;
+    
+    private String siteid;
 
     /**
      * @see us.codecraft.webmagic.utils.HttpConstant.Header
@@ -495,5 +497,9 @@ public class Site {
         this.httpProxyPool.setReuseInterval(reuseInterval);
         return this;
     }
+
+
+    
+    
 
 }
